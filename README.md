@@ -29,7 +29,7 @@ npm run start:dev
 
 1. Sube este repositorio (o la carpeta `backend`) a GitHub.
 2. En Render: **New > Web Service**, conecta el repo.
-3. Root Directory: `backend` (si el repo incluye más carpetas del proyecto).
+3. Root Directory: déjalo vacío (este repo ya es la raíz del backend; no uses `backend` aquí).
 4. Build Command: `npm install && npm run build`
 5. Start Command: `npm run start:prod`
 6. Agrega las variables de entorno de la sección anterior en **Environment** (usa los datos de tu base de datos: Render Postgres o Supabase). Marca `DB_SSL=true`.
